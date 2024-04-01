@@ -1,0 +1,17 @@
+hr{border: 2px;
+border-color: aquamarine;
+border-style: solid;
+}
+#navbar{
+    display: flex;
+}
+#logo{
+    width: 10%;
+}
+#navlinks{
+    width: 20%;
+
+}
+#media{
+    width: 70%;
+}
