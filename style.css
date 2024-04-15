@@ -59,3 +59,43 @@ border-style: solid;
 #media img{
     width: 35px;
 }
+#media img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: 0px 0px 50px 5px rgba(245,243,231,1);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#homesection{
+    background-image: url(bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 100px;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style:normal;
+}
+#homep1{
+    font-size: 55px;
+    color: brown;
+}
+
+#homep1{
+    font-size: 55px;
+    color: brown;
+}
+
+#homep2{
+    font-size: 40px;
+    color: rgb(220, 17, 78);
+    padding: 20px;
+}
